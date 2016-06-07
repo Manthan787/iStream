@@ -1,0 +1,46 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body{
+font-family: 'Lato', Calibri, Arial, sans-serif;
+font-size:25px;
+}
+input{
+width:300px;
+font-size:25px;
+height:50px;
+background:transparent;
+border:0px;
+margin:5px;
+padding:5px;
+border-bottom:1px solid white;
+}
+
+input[type="submit"]{
+border:1px solid white;
+font-size:20px;
+text-align:center;
+margin-left:30px;
+width:90px;
+height:90px;
+border-radius:50%;
+color:white;
+}
+input[type="submit"]:hover{
+cursor:pointer;
+}
+input:focus{
+outline:none;
+}
+
+#login{
+border:2px solid black;
+font-size:20px;
+text-align:center;
+margin-left:30px;
+width:90px;
+height:90px;
+border-radius:50%;
+background:transparent;
+}
+#login:focus{outline:none;}
+#login:hover{cursor:pointer;}

@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{
+margin:0;
+padding:0;
+background-color:#3C76BF;
+font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+#loginheader{
+margin-top:50px;
+color:white;
+font-size:70px;
+margin-bottom:50px;
+}
+
+#username{
+font-size:30px;
+color:white;
+}
+input{
+border-bottom:1px solid white;
+color:white;
+}
+#password{
+font-size:30px;
+color:white;
+}
+input[type="submit"]{
+
+}
